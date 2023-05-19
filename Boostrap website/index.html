@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Website Design </title>
+    <link rel="icon" type="image/png" href="/assets/Images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/Images/logo.png" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end "  id="navbarNav">
+            
+            <ul class="navbar-nav menu-navbar-nav">
+              
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <br><br>
+      <div class="container mt-3">
+        <div id="carouselExampleSlidesonly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/Images/dental1.jpg" class="d-block w-100 h-40">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/Images/Dental2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/Images/dental3.jpg" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-3" id="services">
+      <h2 class="text-center">Services</h2>
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/services/1.svg" class="mx-auto d-block" width="200">
+            <div class="card-body">
+              <h5 class="card-title">Complete Dentistry</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1">Read More</button>
+              <div id="demo1" class="collapse bg-info text-white ms-1 p-2 mt-2">
+                "Complete Dentistry" is a philosophy of addressing and evaluating the entire masticatory system.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/services/2.svg" class="mx-auto d-block" width="200">
+            <div class="card-body">
+              <h5 class="card-title">Dental Selants</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo2">Read More</button>
+              <div id="demo2" class="collapse bg-success text-white ms-1 p-2 mt-2">
+                Dental sealants are a dental treatment intended to prevent tooth decay.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="/assets/Images/services/3.svg" class="mx-auto d-block" width="200">
+              <h5 class="card-title">Dental Dictionary</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo3">Read More</button>
+              <div id="demo3" class="collapse bg-primary text-white ms-1 p-2 mt-2">
+                A branch of medicine that involves diagnosis, prevention, and treatment.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/services/4.svg" class="mx-auto d-block" width="200">
+            <div class="card-body">
+              <h5 class="card-title">Dental Implants</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo4">Read More</button>
+              <div id="demo4" class="collapse bg-secondary text-white ms-1 p-2 mt-2">
+                A dental implant is a prosthesis that interfaces with the bone of the jaw or skull to support a dental.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/services/5.svg" class="mx-auto d-block" width="200">
+            <div class="card-body">
+              <h5 class="card-title">Oral Surgery</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo5">Read More</button>
+              <div id="demo5" class="collapse bg-info text-white ms-1 p-2 mt-2">
+                Oral and maxillofacial surgery is a surgical specialty focusing on reconstructive surgery of the face.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/services/6.svg" class="mx-auto d-block" width="200">
+            <div class="card-body">
+              <h5 class="card-title">General Dentistry</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo6">Read More</button>
+              <div id="demo6" class="collapse bg-success text-white ms-1 p-2 mt-2">
+                General dentisis can diagnose and treat the causes of tooth pain or periodontal disease.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container" id="gallery">
+      <h2 class="text-center">Gallery</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card" style="border-style: none;">
+            <img src="/assets/Images/gallery/1.jpg">
+          </div> 
+        </div>
+        <div class="col-lg-6">
+          <div class="card"style="border-style: none;" >
+            <img src="/assets/Images/gallery/2.jpg">
+          </div> 
+        </div>
+        
+        <div class="col-lg-12">
+          <div class="card" style="border-style: none;">
+            <br>
+            <img src="/assets/Images/gallery/4.jpg">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card"style="border-style: none;">
+            <br>
+            <img src="/assets/Images/gallery/3.jpg">
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <div class="card" style="border-style: none;">
+            <br>
+            <img src="/assets/Images/gallery/5.jpg">
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    <br>
+    <div class="container mt-3" id="team">
+      <h2 class="text-center">Team<h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card text-center shadow" style="border-style: ;">
+              <div class="card-body">
+                <img src="/assets/Images/team/team1.png">
+                <hr>
+                 <h3>Edan Morgan</h3>
+                 <h6>Oral Surgaeon</h6>
+
+              </div>
+
+            </div> 
+          </div>
+          <div class="col-lg-4">
+            <div class="card text-center shadow" style="border-style:;">
+              <div class="card-body">
+                <img src="/assets/Images/team/team2.png">
+                <hr>
+                <h3>Salman Ahmed</h3>
+                <h6>Salman Ahmed</h6>
+              </div>
+            </div> 
+          </div>
+          <div class="col-lg-4">
+            <div class="card text-center shadow">
+              <div class="card-body">
+                <img src="/assets/Images/team/team3.png">
+                <hr>
+                <h3>Santa Binte</h3>
+                <h6> Oral Surgaeon</h6>
+              </div>
+            </div> 
+          </div>
+
+
+        </div>
+
+    </div>
+    <div class="container mt-3" id="blog">
+      <h2 class="text-center">Blog</h2>
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/blog/1.jpg" class="mx-auto d-block" width="200">
+            <div class="card-body bg-primary text-white">
+              <h5 class="card-title">Dental Insurance with Benefits</h5>
+              <h6 class="p-2 text-center">By Admin/ Feb 25 2023</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary border" data-bs-toggle="collapse" data-bs-target="#demo1">Read More</button>
+              <div id="demo1" class="collapse bg-info text-white ms-1 p-2 mt-2">
+                "Complete Dentistry" is a philosophy of addressing and evaluating the entire masticatory system.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/blog/2.jpg" class="mx-auto d-block" width="200">
+            <div class="card-body bg-primary text-white">
+              <h5 class="card-title">Dental Insurance with Benefits</h5>
+              <h6 class="p-2 text-center">By Admin,Jan 05 2023</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary border" data-bs-toggle="collapse" data-bs-target="#demo2">Read More</button>
+              <div id="demo2" class="collapse bg-info text-white ms-1 p-2 mt-2">
+                "Complete Dentistry" is a philosophy of addressing and evaluating the entire masticatory system.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="/assets/Images/blog/3.jpg" class="mx-auto d-block" width="200">
+            <div class="card-body bg-primary text-white">
+              <h5 class="card-title">Dental Insurance with Benefits</h5>
+              <h6 class="p-2 text-center">By Admin,March 04 2023</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary border" data-bs-toggle="collapse" data-bs-target="#demo3">Read More</button>
+              <div id="demo3" class="collapse bg-info text-white ms-1 p-2 mt-2">
+                "Complete Dentistry" is a philosophy of addressing and evaluating the entire masticatory system.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+            
+     </div>
+     
+     </div>
+     <br>
+     <h2 class="text-center">Contact</h2>
+     <footer class="bg-primary text-white" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Clinic Location</h2>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repudiandae.</h6>
+            <span class="material-symbols-outlined">
+              home
+            </span><span class="px-2">No 96 south city, Londan</span><br>
+            <span class="material-symbols-outlined">
+              call
+              </span><span class="px-2">+9068 6868 07</span><br>
+              <span class="material-symbols-outlined ">
+                mark_email_unread
+                </span><span class="px-2">sangramnangare3105@gmail.com</span>
+              
+          </div>
+          <div class="col-lg-3">
+            <h2>More Links</h2>
+            <ul >
+              <li>About Us</li>
+              <li>Our Office</li>
+              <li>Deliery</li>
+              <li>Our Store</li>
+              <li>Guarantee</li>
+              <li>Buy Gift Card</li>
+              <li>Return Policy</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h2>Demo Links</h2>
+            <ul >
+              <li>About Us</li>
+              <li>Our Office</li>
+              <li>Deliery</li>
+              <li>Our Store</li>
+              <li>Guarantee</li>
+              <li>Buy Gift Card</li>
+              <li>Return Policy</li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h2>Newsletter</h2>
+          <form action method="post">
+            <input type="email" name="email">
+            <br><br>
+            <input type="submit" value="subscribe">
+          </form>
+           
+          </div>
+
+        </div>
+        
+      </div>
+      
+
+     </footer>
+     <footer class="bg-dark text-center text-white pt-2" style="height: 60px"><span>Designed & Developed by @sangram</span></footer>
+
+     </body>         
+
+</html>
